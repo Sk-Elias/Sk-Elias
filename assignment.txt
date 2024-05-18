@@ -1,0 +1,21 @@
+//Programme to add two numbers
+/*
+programme to add two numbers
+Author:Elias
+Date:18/05/2024
+*/
+#include <stdio.h> //scanf(),printf()
+int main(){
+int a = 10;
+int b = 20;
+int sum;
+sum = a + b;
+printf("the sum a and b is %d",sum);
+    return 0;
+	
+	
+	
+}/tmp/kw6ypeOvNB.o
+the sum a and b is 30
+
+=== Code Execution Successful ===
