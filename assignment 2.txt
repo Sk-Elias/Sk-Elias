@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    printf("Elias kipkosgei\n");
+    printf("I love playing badminton\n");
+    printf("I aspire to become the best software engineer in kenya\n");
+    printf("I play online video games");
+
+    return 0;
+}
+
+/tmp/yay430ZmCN.o
+Elias kipkosgei
+I love playing badminton
+I aspire to become the best software engineer in kenya
+I play online video games
+
+=== Code Execution Successful ===
