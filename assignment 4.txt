@@ -1,0 +1,25 @@
+// variables and data types in c
+#include <stdio.h> // scanf() , printf()
+int main() {
+    int height = 30;
+    float width = 45.25;
+    double length =100.55;
+    char a = 'c'; //%c
+    
+    printf("the value of height is %d\n",height);
+    printf("the value of width is %10.2f\n",width);
+    printf("the value of length is %2f\n",length);
+    printf("the value of a is a is %c\n",a);
+    
+    return 0;
+}
+
+
+/tmp/WDVKlkXrAN.o
+the value of height is 30
+the value of width is      45.25
+the value of length is 100.550000
+the value of a is a is c
+
+
+=== Code Execution Successful ===
