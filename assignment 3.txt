@@ -1,0 +1,30 @@
+/ Variables and data types in c
+#include <stdio.h> // scanf() , printf()
+
+int a=10; //global variable
+int main(){
+    //int a=11; //local variable
+    printf("the value od a is %d\n",a);
+    area();
+    return 0;
+}
+
+int area(){
+    //int a=12;
+    printf("the value of a is %d\n",a);
+    
+}
+
+
+
+
+/tmp/NFOPlRJ4PE.c: In function 'main':
+/tmp/NFOPlRJ4PE.c:8:5: warning: implicit declaration of function 'area' [-Wimplicit-function-declaration]
+    8 |     area();
+      |     ^~~~
+/tmp/NFOPlRJ4PE.o
+the value od a is 10
+the value of a is 10
+
+
+=== Code Execution Successful ===
